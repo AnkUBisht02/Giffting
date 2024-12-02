@@ -1,0 +1,97 @@
+.body{
+    background-color: black;
+}
+.rose{
+    width: 80vw;
+    height: 45vw;
+    position: relative;
+    left: 7vw;
+    animation: rose 3s 1;
+}
+@keyframes rose {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+.content{
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    TOP:38vw;
+    font-family: 'Courier New', Courier, monospace;
+    animation: content 3s 1;
+
+}
+@keyframes content {
+    0%{opacity: 0; position: absolute; top:2vw}
+    50%{opacity: 0;}
+    75%{opacity: 1;}
+    100%{position: absolute; top:38vw}    
+}
+
+.pareshan{
+    color: white;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    right:0vw;
+    top: 25vw;
+    animation: pareshan 4s 1;
+}
+@keyframes pareshan {
+    0%{opacity: 0; }
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}     
+} 
+.invitation{
+    color: white;
+    position: absolute;
+    top:55vw;
+    left: 30vw;
+    font-size: 50px;
+    animation: scroll 2s infinite;
+
+}
+@keyframes scroll {
+    0%{color: aquamarine;}
+    25%{color: blueviolet;}
+    50%{color: brown;}
+    75%{color:blue}
+    100%{color:red}    
+}
+.yes{
+    position: absolute;
+    top: 63vw;
+    left: 35vw;
+    font-size: 30px;
+    border-radius: 20%;
+    border: 5px solid gray;
+    padding: 1%;
+    background-color: gray;
+    color:white;
+}
+.yes:hover{
+    color:black;
+    }
+
+.no:hover{
+    color:black;
+} 
+.whats{
+    display: none;
+    position: relative;
+    color: white;
+    font-size: 50px;
+}   
+.no{
+    position: absolute;
+    top: 63vw;
+    left: 55vw;
+    font-size: 30PX;
+    border-radius: 20%;
+    border: 5px solid gray;
+    padding: 1%;
+    background-color: gray;
+    color:white;
+}
